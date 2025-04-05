@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns="http://cse445.asu.edu/Hotels"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://cse445.asu.edu/Hotels Hotels.xsd">
+
+	<!-- Example hotel from the diagram -->
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Additional hotels (10+ total as required) -->
+	<Hotel Rating="4.5">
+		<Name>Marriott</Name>
+		<Phone>480-894-1400</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>300</Number>
+			<Street>S Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Hyatt Regency</Name>
+		<Phone>602-252-1234</Phone>
+		<Phone>800-233-1234</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.8">
+		<Name>Hilton</Name>
+		<Phone>480-967-1441</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>1701</Number>
+			<Street>E Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>Sheraton</Name>
+		<Phone>602-262-2500</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>340</Number>
+			<Street>N 3rd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>DoubleTree</Name>
+		<Phone>480-968-3000</Phone>
+		<Phone>800-528-6481</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2100</Number>
+			<Street>S Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Four Seasons</Name>
+		<Phone>480-513-5039</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>10600</Number>
+			<Street>E Crescent Moon Dr</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85262</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Holiday Inn</Name>
+		<Phone>480-894-9900</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>1651</Number>
+			<Street>S Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Embassy Suites</Name>
+		<Phone>480-894-7444</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>4400</Number>
+			<Street>S Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7">
+		<Name>The Phoenician</Name>
+		<Phone>480-941-8200</Phone>
+		<Phone>800-888-8234</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Renaissance</Name>
+		<Phone>480-947-5400</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>6160</Number>
+			<Street>N Scottsdale Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85253</Zip>
+		</Address>
+	</Hotel>
+</Hotels>

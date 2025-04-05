@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR 1: Wrong root element name (Hotel instead of Hotels) -->
+<Hotel xmlns="http://cse445.asu.edu/Hotels"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://cse445.asu.edu/Hotels Hotels.xsd">
+
+	<Hotel Rating="4.2">
+		<n>Westin</n>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<n>Marriott</n>
+		<!-- ERROR 3: Missing Phone element for this hotel -->
+		<Address NearestAirport="Sky Harbor">
+			<Number>300</Number>
+			<Street>S Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<n>Hyatt Regency</n>
+		<Phone>602-252-1234</Phone>
+		<Phone>800-233-1234</Phone>
+		<!-- ERROR 4: Address element missing closing tag -->
+		<Address NearestAirport="Sky Harbor">
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+
+		</Hotel>
+
+	<Hotel Rating="3.8">
+		<!-- ERROR 5: Two names provided for one hotel -->
+		<n>Hilton</n>
+		<n>Hilton Garden Inn</n>
+		<Phone>480-967-1441</Phone>
+		<!-- ERROR 2: Missing required NearestAirport attribute -->
+		<Address>
+			<Number>1701</Number>
+			<Street>E Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<n>Sheraton</n>
+		<Phone>602-262-2500</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>340</Number>
+			<Street>N 3rd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<n>DoubleTree</n>
+		<Phone>480-968-3000</Phone>
+		<Phone>800-528-6481</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2100</Number>
+			<Street>S Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
